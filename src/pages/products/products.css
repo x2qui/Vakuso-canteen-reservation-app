@@ -1,0 +1,21 @@
+
+.vakuso__products-container{
+    background-color: #191921;
+    height: 100vh;
+}
+
+.image-preview{
+    width: 100px;
+    display: inline-block;
+    position: relative;
+
+}
+.goback {
+    color: white;
+}
+.image-preview img{
+    width:30%;
+    height:30%;
+    object-fit: cover;
+    border-radius: 10px;
+}

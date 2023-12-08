@@ -1,0 +1,108 @@
+.vakuso__admin-container{
+  background-color: #cecece;
+  padding-bottom: 3rem;
+ 
+}
+
+.vakuso__admin-content{
+    width: 80%;
+    margin: 20px auto;
+  
+    
+   
+  }
+  .inventory-box{
+    background-color: #f2f2f2;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+  }
+  .vakuso__inventory{
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .vakuso__sumproducts{
+    background-color: rgb(214, 178, 131);
+    padding: 2rem 4rem;
+    border-radius: 20px;
+  }
+  .vakuso__sumproducts h3, .vakuso__sumproducts p {
+    color:#f2f2f2;
+  }
+  .vakuso__sumprice{
+    background-color: rgb(85, 156, 167);
+    padding: 2rem 4rem;
+    border-radius: 20px;
+  }
+  .vakuso__sumprice h3,  .vakuso__sumprice p{
+    color:#f2f2f2;
+  }
+  .vakuso__sumcategories{
+    background-color: rgb(211, 79, 79);
+    padding: 2rem 4rem;
+    border-radius: 20px;
+  }
+  .vakuso__sumcategories h3,  .vakuso__sumcategories p{
+    color:#f2f2f2;
+  }
+  
+  .vakuso__admintable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  
+  .vakuso__admintable th {
+    background-color: #f2f2f2;
+    
+  }
+  
+ 
+  .vakuso__admintable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+
+  .vakuso__admintable td, .vakuso__admintable th {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  .vakuso__product-tabimg img{
+    width: 10%;
+    height: 10%;
+  }
+  .navorders{
+    cursor: pointer;
+    outline: none;
+    border: none;
+  
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 5px;
+    
+    padding:0.5rem 2rem;
+    margin: 1rem;
+  }
+  .pagination{
+    margin-top: 2rem;
+  }
+  @media screen and (max-width: 600px) {
+    .admin-table {
+      overflow-x:scroll;
+      display: block;
+    }
+  }
+  .vakuso__product_tab{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem ;
+  }

@@ -1,0 +1,23 @@
+.vakuso__footer-container{
+    background-color: var(--bg-color);
+   width: 100vw;
+   padding: 0.5rem 1rem;
+    position: fixed;
+    bottom: 0%;
+   z-index: 10000;
+}
+.vakuso__footer-contents{
+    display: flex;
+    justify-content: space-between;
+}
+.vakuso__footer-icon{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    text-align: center;
+}
+.vakuso__footer-icon h3{
+    font-size: 12px;
+    color: white;
+}

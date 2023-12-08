@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  padding-bottom: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Convergence', sans-serif;
+}
+.home{
+  background-image: url('assets/Home-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+h1{
+  font-size: 93.178px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section__padding {
+  padding: 1.5rem 1rem;
+}
+h2{
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.primarybtn{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  
+  background: #E89901;
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: 23.154px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.primarybtn2{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  
+  background: #191919;
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: 23.154px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+.topnavlogin{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 3rem;
+  padding: 8px 15px;
+  margin-right: 2rem;
+  background: white;
+  color: black;
+  font-size: 23.154px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+.topnavsignup{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 3rem;
+  padding: 10px 20px;
+  margin-right: 2rem;
+  background: #E89901;;
+  color: var(--text-color);
+  font-size: 23.154px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+p{
+  color: #000;
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.appcontainer{
+  padding: 0rem 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@media screen and (max-width:550px){
+  h1{
+    font-size: 53px;
+  }
+  .section__padding {
+    padding: 0.5rem 0.5rem;
+  }
+  .home{
+    background-image: url('assets/homepage-mobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .primarybtn{
+    font-size: 20px;
+    width: 100%;
+    padding: 1rem ;
+  }
+  .primarybtn2{
+    font-size: 20px;
+    padding: 1rem 4.5rem;
+  }
+  .navlogin{
+    cursor: pointer;
+    background-color: #d0d0d0; 
+    border: none;
+    border-radius: 0.5rem;
+    color: black;
+    padding: 2rem 8rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    
+  
+  }
+  .navsignin{
+    cursor: pointer;
+    background-color: #E89901; 
+    border: none;
+    border-radius: 0.5rem;
+    color: black;
+    padding: 2rem 8rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section__margin{
+  margin-bottom: 1rem;
 }

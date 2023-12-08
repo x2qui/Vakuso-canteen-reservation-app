@@ -1,0 +1,53 @@
+.vakuso__signup-container{
+    background-color: #191921;
+    height:100vh;
+}
+.vakuso__signup-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.vakuso__signup-header h2{
+    color: #FFF;
+    font-family: var(font-family);
+    font-size: 16.125px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+.vakuso__signupform{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+input{
+    border:outset;
+    border-radius: 5px;
+    border-color: rgba(216, 216, 216, 0.185);
+    margin-bottom: 1rem;
+    width: 300px;
+    background: rgba(217, 217, 217, 0.96);  
+    padding: 1rem;
+}
+.submitbtn{
+    padding: 1rem 0;
+    border: none;
+    border-radius: 5px;
+    background: #E89901;
+    color: white;
+}
+.redirectbtn{
+    width: 300px;
+    padding: 1rem 0;
+    border: none;
+    border-radius: 5px;
+    background: black;
+    color: white;
+}

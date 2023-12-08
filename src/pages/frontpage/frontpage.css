@@ -1,0 +1,46 @@
+
+.x2q__vakuso-home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+  
+}
+.x2q__vakuso-home-content h1{
+    color: var(--text-color);
+    
+}
+
+
+
+
+
+
+
+@media screen and (min-width:1300px){
+    .x2q__vakuso-home-content{
+        
+        padding-top: 12rem;
+        padding-left: 15rem;
+    }
+}
+@media screen and (max-width:550px){
+ .x2q__vakuso-home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+ }
+ .x2q__vakuso-home-content h1{
+    text-align: center;
+    
+}
+.x2q__vakuso-home-content-btn{
+    margin: auto;
+}
+}

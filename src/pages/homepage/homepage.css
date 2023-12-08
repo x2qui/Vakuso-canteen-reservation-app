@@ -1,0 +1,35 @@
+.vakusp__home-headerbg{
+    background-color: var(--bg-color);
+    height: 220px;
+    margin-bottom: -12rem;
+    border-radius: 0px 0px 26px 26px;
+}
+.vakuso__home-header p{
+    color: #FFF;
+    font-size: 12px;
+    
+    
+}
+.vakuso__home-header h2{
+    font-size: 20px;
+    color: #FFF;
+    padding-bottom: 1rem;
+}
+.vakuso__home-headerimg{
+    width: 100%;
+}
+.vakuso__meals{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    
+}
+.vakuso__meals h3{
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.vakuso__breakfast-content{
+    margin-top: 2rem;
+    position: absolute;
+}

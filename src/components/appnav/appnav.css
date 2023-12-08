@@ -1,0 +1,17 @@
+.vakuso__appnav-container{
+    background-color: var(--bg-color);
+    padding: 1rem;
+}
+.vakuso__appnav-content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.vakuso__appnav-Logo img{
+    width: 50%;
+}
+.vakuso__appnav-icon{
+    display: flex;
+    flex: 0.25;
+    justify-content: space-between;
+}
