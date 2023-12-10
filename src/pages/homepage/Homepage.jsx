@@ -33,23 +33,41 @@ const Homepage = () => {
           </div>
          <div className='vakuso__lunch' onClick={() => handleCategoryClick('lunch')}>
           <h3>Lunch</h3>
+          {activeCategory === 'lunch' && (
+            <div className='vakuso__breakfast-content'>
+            <Categories category="breakfast" />
+            </div>
+             )}
           <div className='vakuso__lunch-content'>
           <Categories category="lunch" />
           </div>
          </div>
-         <div className='vakuso__dinner'>
+         <div className='vakuso__dinner' onClick={() => handleCategoryClick('dinner')}>
           <h3>Dinner</h3>
-          <div className='vakuso__dinner-content'>
-
-          </div>
+          {activeCategory === 'dinner' && (
+            <div className='vakuso__breakfast-content'>
+            <Categories category="dinner" />
+            </div>
+             )}
+          
          </div>
-         <div className='vakuso__snacks'>
+         <div className='vakuso__snacks' onClick={() => handleCategoryClick('snacks')}>
           <h3>Snacks</h3>
-          <div className='vakuso__snacks-content'></div>
+          {activeCategory === 'snacks' && (
+            <div className='vakuso__breakfast-content'>
+            <Categories category="snacks" />
+            </div>
+             )}
+         
          </div>
-         <div className='vakuso__drinks'>
+         <div className='vakuso__drinks' onClick={() => handleCategoryClick('drinks')}>
           <h3>Drinks</h3>
-          <div className='vakuso__drinks-content'></div>
+          {activeCategory === 'snacks' && (
+            <div className='vakuso__breakfast-content'>
+            <Categories category="drinks" />
+            </div>
+             )}
+          
          </div>
 
         </div>
