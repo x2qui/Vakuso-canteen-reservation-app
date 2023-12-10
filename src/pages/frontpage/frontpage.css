@@ -4,13 +4,16 @@
     flex-direction: column;
     justify-content: center;
     justify-items: center;
+    margin-left: 2rem;
   
 }
 .x2q__vakuso-home-content h1{
     color: var(--text-color);
     
 }
-
+.x2q__vakuso-home-content-btn{
+    display: none;
+}
 
 
 

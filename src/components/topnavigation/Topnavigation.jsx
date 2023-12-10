@@ -15,10 +15,10 @@ const Topnavigation = () => {
             </div>
             <div className='vakuso__topnav-items'>
                 <div className='vakuso__topnav-login-btn'>
-                    <button className='topnavlogin'><img src={Loginicon} alt='Login'/><span>Log in</span></button>
+                   <Link to="/login"> <button className='topnavlogin'><img src={Loginicon} alt='Login'/><span>Log in</span></button></Link>
                 </div>
                 <div className='vakuso__topnav-signup-btn'>
-                    <button className='topnavsignup'>Sign up</button>
+                <Link to="/signup"><button className='topnavsignup'>Sign up</button></Link>
                 </div>
                
             </div>
